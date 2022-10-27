@@ -13,6 +13,10 @@ html {
   font-size: 62.5%;
 }
 
+body {
+  background-color: rgb(219, 192, 192);
+}
+
 .App {
   display: flex;
   flex-direction: column;
@@ -20,12 +24,13 @@ html {
 }
 
 h1 {
-  font-size: 8rem;
+  font-size: 6rem;
   letter-spacing: 0.1rem;
-  font-style: italic;
-  color: #40b48e;
+  font-weight: 600;
+  color: #61077e;
   text-shadow: 0 0.2rem 5rem rgb(119, 115, 115);
   text-transform: uppercase;
+  text-align: center;
   margin: 4rem 0;
 }
 
@@ -72,13 +77,13 @@ h1 {
 .search-form input[type='text'] {
   padding: 0 0.5rem;
   width: 60%;
-  color: #555;
+  color: rgb(219, 205, 205);
 }
 
 .search-form input[type='submit'] {
   width: 25%;
   text-transform: uppercase;
-  background-color: #40b48e;
+  background-color: #4f0bae;
   color: #fff;
 }
 
@@ -100,7 +105,7 @@ h1 {
   padding: 2rem;
   position: relative;
   border-radius: 0.5rem;
-  box-shadow: 2rem 3rem 5rem #aaa;
+  box-shadow: 2rem 3rem 5rem rgb(239, 225, 225);
 }
 
 .recipe h2 {
