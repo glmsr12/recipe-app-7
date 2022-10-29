@@ -150,7 +150,7 @@ h1 {
 
 .ingredient-list {
   margin-top: 1rem;
-  background-color: #ffcb9a;
+  background-color: #c6ab92;
   border-radius: 0.5rem;
   padding: 0.5rem;
 }
@@ -161,7 +161,7 @@ h1 {
 
 .ingredient-text {
   font-size: 1.5rem;
-  color: #888;
+  color: rgb(40, 38, 38);
 }
 
 .ingredient-weight {
