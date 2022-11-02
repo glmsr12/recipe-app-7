@@ -15,6 +15,12 @@ function App() {
 
   const url = `https://api.edamam.com/search?q=${query}&app_id=${APP_ID}&app_key=${APP_KEY}`;
 
+  async function getRecipes() {
+    var result = await Axios.get(url);
+    console.log(result.data);
+  }
+  getRecipes({ query });
+
   const getData = async () => {
     if (query !== '') {
       const result = await Axios.get(url);
