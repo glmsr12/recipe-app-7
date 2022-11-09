@@ -3,24 +3,6 @@
 * {
   font-family: 'Roboto', sans-serif;
 }
-
-.navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  height: 55px;
-  box-shadow: 0 5px 8px rgb(1, 22, 27);
-  box-shadow: rgb(1, 22, 27);
-}
-
-.container {
-  align-items: flex-end;
-}
-
-.navbar h2 {
-  font-size: 3rem;
-}
-
 html {
   font-size: 62.5%;
 }
@@ -188,4 +170,32 @@ h1 {
   text-transform: uppercase;
   text-align: center;
   margin: 2rem 0;
+}
+
+/* navbar style */
+.NavbarItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 2rem;
+  margin-left: 2rem;
+  height: 90px;
+}
+
+.nav-menu {
+  display: grid;
+  grid-template-columns: repeat(5, auto);
+  grid-gap: 20px;
+  list-style: none;
+  text-align: center;
+  width: 70vw;
+  justify-content: end;
+  margin-right: 2rem;
+}
+li a {
+  text-decoration: none;
+  color: rgb(224, 222, 222);
+}
+span {
+  color: #d1e8e2;
 }
